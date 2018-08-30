@@ -1,8 +1,10 @@
 # spark.apache.connection.jdbc-postgresql
+
 Solución conectar spark apache 2.3.1 con jdbc driver postgresql
 
 # Fuente en python (etl.py):
-from pyspark.shell import spark
+
+from pyspark.shell import spark 
 from pyspark.sql.functions import *
 from pyspark.sql import SparkSession
 spark2 = SparkSession.builder.getOrCreate()
